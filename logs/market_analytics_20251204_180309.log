@@ -1,0 +1,47 @@
+2025-12-04 18:03:09 - root - INFO - ======================================================================
+2025-12-04 18:03:09 - root - INFO - Logging system initialized
+2025-12-04 18:03:09 - root - INFO - ======================================================================
+2025-12-04 18:03:09 - __main__ - INFO - ======================================================================
+2025-12-04 18:03:09 - __main__ - INFO - APPLICATION STARTUP
+2025-12-04 18:03:09 - __main__ - INFO - ======================================================================
+2025-12-04 18:03:09 - __main__ - INFO - Initializing MarketAnalyticsDashboard
+2025-12-04 18:03:09 - __main__ - INFO - Configuration loaded: 4 symbols, 5 timeframes
+2025-12-04 18:03:09 - redis_handler - INFO - ✅ Successfully connected to Redis
+2025-12-04 18:03:09 - redis_handler - INFO - 🗑️ Cleared 4 trade data keys from Redis
+2025-12-04 18:03:09 - redis_handler - INFO - RedisHandler initialized with max trades per key: 510000
+2025-12-04 18:03:09 - __main__ - INFO - RedisHandler initialized successfully
+2025-12-04 18:03:09 - binance_connector - INFO - BinanceConnector initialized for exchange: BINANCE
+2025-12-04 18:03:09 - __main__ - INFO - BinanceConnector initialized successfully
+2025-12-04 18:03:09 - analytics_engine - INFO - AnalyticsEngine initialized
+2025-12-04 18:03:09 - __main__ - INFO - AnalyticsEngine initialized successfully
+2025-12-04 18:03:09 - alert_manager - INFO - AlertManager initialized
+2025-12-04 18:03:09 - __main__ - INFO - AlertManager initialized successfully
+2025-12-04 18:03:09 - __main__ - INFO - Dash app created successfully
+2025-12-04 18:03:09 - __main__ - INFO - Active symbols: {'BNBUSDT', 'ETHUSDT', 'SOLUSDT', 'BTCUSDT'}
+2025-12-04 18:03:09 - __main__ - INFO - Setting up dashboard layout
+2025-12-04 18:03:09 - __main__ - INFO - Dashboard layout setup complete
+2025-12-04 18:03:09 - __main__ - INFO - Setting up dashboard callbacks
+2025-12-04 18:03:09 - __main__ - INFO - Dashboard callbacks setup complete
+2025-12-04 18:03:09 - __main__ - INFO - Dashboard layout and callbacks configured
+2025-12-04 18:03:09 - alert_manager - INFO - Alert callback registered (total: 1)
+2025-12-04 18:03:09 - __main__ - INFO - Alert callback registered
+2025-12-04 18:03:09 - __main__ - INFO - ======================================================================
+2025-12-04 18:03:09 - __main__ - INFO - 🚀 Starting Real-Time Market Analytics Dashboard
+2025-12-04 18:03:09 - __main__ - INFO - ======================================================================
+2025-12-04 18:03:09 - __main__ - INFO - Starting async tasks thread
+2025-12-04 18:03:09 - __main__ - INFO - Async tasks thread started
+2025-12-04 18:03:09 - __main__ - INFO - Starting Dash server on 0.0.0.0:8050
+2025-12-04 18:03:09 - __main__ - INFO - Starting data collection for symbols: ['BNBUSDT', 'ETHUSDT', 'SOLUSDT', 'BTCUSDT']
+2025-12-04 18:03:09 - binance_connector - INFO - 🔗 Connecting to Binance WebSocket...
+2025-12-04 18:03:09 - dash.dash - INFO - Dash is running on http://0.0.0.0:8050/
+
+2025-12-04 18:03:09 - binance_connector - INFO - 📊 Symbols: BNBUSDT, ETHUSDT, SOLUSDT, BTCUSDT
+2025-12-04 18:03:09 - binance_connector - INFO - 🌐 URL: wss://fstream.binance.com/stream?streams=bnbusdt@trade/ethusdt@trade/solusdt@trade/btcusdt@trade
+2025-12-04 18:03:09 - binance_connector - INFO - Connection attempt #1
+2025-12-04 18:03:09 - __main__ - INFO - Starting alert manager with check interval: 1s
+2025-12-04 18:03:09 - alert_manager - INFO - 🔔 Alert manager started (checking every 1s)
+2025-12-04 18:03:09 - binance_connector - INFO - ✅ WebSocket connected. Streaming trades...
+2025-12-04 19:30:26 - binance_connector - WARNING - ⚠️ WebSocket connection closed: no close frame received or sent
+2025-12-04 19:30:26 - binance_connector - INFO - 🔄 Attempting to reconnect in 5 seconds...
+2025-12-04 19:30:31 - binance_connector - INFO - Connection attempt #2
+2025-12-04 19:30:32 - binance_connector - INFO - ✅ WebSocket connected. Streaming trades...

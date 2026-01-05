@@ -1,0 +1,20 @@
+Some prompts used in stock market 
+
+is zscore calculated between two stock or with same stock? 
+what exactly is meant by zscore
+what exactly is redis used for?
+Redis vs Casandra 
+what do you mean by spread in hedging 
+Generate a  frontend according to this assignment and handler 
+given write good logging and exception case handling in these files 
+there is issue in this datetime timestamp in this code 
+give me general system design for this assignment 
+convert this html to python code 
+[Be my dash tutor i want to learn dash from beginning to intermidiate on topics like layout basics (html.Div, dcc.Graph, dcc.Dropdown, dcc.Interval) callbacks (Input, Output, State) + returning figures and JSON dcc.Store and client-side updates wire one end-to-end flow (fetch analytics → store JSON → update 2 graphs) with required code example and what each word does in that lets start with basics please plan the curriculum before start and lets start with first concept]
+in this the pair analytics part is not working at all on frontend please review everything from redis storage to analytics engine to dash 
+debug each and everything and give me full perfect updated code
+
+Write an abstract class for this code
+so lets start with creating binance connector module which stores the data in redis please follow the modularity required according to the assignment such that in future in can connect to indian stock exchange or Chicago merchantile exchange 
+first only creating files for connector and storing data in redis in optimal way 
+according to the give Binance connector and redis module help me in building this analytics by pulling data from redis handler, change the redis handler accordinglyuse interval callback and build a dash app from this files  used some more prompts for debugging as well 
